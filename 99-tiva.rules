@@ -1,0 +1,1 @@
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1cbe", ATTRS{idProduct}=="00ff", GROUP="users", SYMLINK+="tiva-launchpad", MODE="0666"
