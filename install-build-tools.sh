@@ -21,6 +21,8 @@ sudo cp 99-tiva.rules /etc/udev/rules.d/99-tiva.rules
 # Set up rosserial_tivac environment variables
 echo "export TIVA_WARE_PATH=/opt/tivaware" >> ~/.zshrc
 echo "export TIVA_FLASH_EXECUTABLE=lm4flash" >> ~/.zshrc
+echo "export TIVA_WARE_PATH=/opt/tivaware" >> ~/.bashrc
+echo "export TIVA_FLASH_EXECUTABLE=lm4flash" >> ~/.bashrc
 
 # Install rosserial_tivac
 sudo apt-get install ros-${ROS_DISTRO}-rosserial-tivac
