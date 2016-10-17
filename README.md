@@ -7,10 +7,8 @@ Contains scripts to:
 __Instructions__
 
 - Install `tivaware` to /opt
-
-__TODO__
-
-- Merge fragmented scripts
-- Remove Stellaris udev rules
-- Add Tiva udev rules
-- Set up make / cmake
+- Run `install-build-tools.sh`
+- Run `install-ccs-pre.sh`
+- Download and install CCS with all the default settings. Be sure to install
+  support for the Tiva C Series boards.
+- Run `install-ccs-post.sh`

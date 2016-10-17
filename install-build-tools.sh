@@ -24,5 +24,7 @@ echo "export TIVA_FLASH_EXECUTABLE=lm4flash" >> ~/.zshrc
 echo "export TIVA_WARE_PATH=/opt/tivaware" >> ~/.bashrc
 echo "export TIVA_FLASH_EXECUTABLE=lm4flash" >> ~/.bashrc
 
+sudo apt-get install ros-${ROS_DISTRO}-rosserial ros-${ROS_DISTRO}-rosserial-msgs ros-${ROS_DISTRO}-rosserial-client ros-${ROS_DISTRO}-rosserial-python
+
 # Install rosserial_tivac
 sudo apt-get install ros-${ROS_DISTRO}-rosserial-tivac
